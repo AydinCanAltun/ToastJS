@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/toast.css">
+</head>
+<body>
+    
+    <script src="src/js/toast.js"></script>
+    <script>
+        window.onload = function()
+        {
+            var toast = new Toast({
+                position: "top-left",
+                duration: 1500
+            });
+            toast.success("Başlık", "Message");
+
+        }
+    </script>
+</body>
+</html>
